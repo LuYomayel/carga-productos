@@ -1,0 +1,31 @@
+.categorias-text{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #686E7F;
+}
+
+.custom-card{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 0 12px 40px rgba(0, 0, 0, 0.22);
+    transition: box-shadow 0.3s;
+    
+}
+.card-content-categorias{
+    text-align: center;
+    padding: 10px;
+}
+.card-images{
+    width: 120px;
+    height: 120px;
+}
+.custom-col {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+/* .custom-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 0 12px 40px rgba(0, 0, 0, 0.22);
+  } */

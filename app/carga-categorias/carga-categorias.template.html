@@ -1,0 +1,25 @@
+<div class="nav-carga-titulo">
+    <a style="display: flex; align-items: center;" href="#!/" onclick="window.history.back();">
+        <i class="material-icons" style="font-size: 3rem; color:black">keyboard_arrow_left</i>
+    </a>
+    
+    <button class="continue-button" ng-click="$ctrl.guardarTitulo()">Continuar</button>  
+</div>
+
+<div class="input-container">
+    <p class="categorias-text">Selecciona las categorías a las cuales pertenezca tu producto o servicio</p>
+    <div class="row">
+        <div class="col custom-col" ng-repeat="categoria in $ctrl.categorias">
+          <div class="card custom-card">
+            <div class="card-image">
+              <img ng-src="{{categoria.imagenUrl}}" class="responsive-img card-images">
+            </div>
+            <div class="card-content-categorias">
+              <span class="categorias-text">{{categoria.nombre}}</span>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+

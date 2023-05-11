@@ -1,0 +1,53 @@
+[
+    {
+      "nombre": "viajes y turismo",
+      "id": 1,
+      "imagenUrl": "../img/viajes.svg"
+    },
+    {
+      "nombre": "moto lujos",
+      "id": 2,
+      "imagenUrl": "../img/moto-lujos.svg"
+    },
+    {
+      "nombre": "compra venta",
+      "id": 3,
+      "imagenUrl": "../img/compra-venta.svg"
+    },
+    {
+      "nombre": "concesionarios",
+      "id": 4,
+      "imagenUrl": "../img/concesionarios.svg"
+    },
+    {
+      "nombre": "gruas",
+      "id": 5,
+      "imagenUrl": "../img/gruas.svg"
+    },
+    {
+      "nombre": "lavaderos",
+      "id": 6,
+      "imagenUrl": "../img/lavaderos.svg"
+    },
+    {
+      "nombre": "llantas",
+      "id": 7,
+      "imagenUrl": "../img/llantas.svg"
+    },
+    {
+      "nombre": "accesorios",
+      "id": 8,
+      "imagenUrl": "../img/accesorios.svg"
+    },
+    {
+      "nombre": "repuestos",
+      "id": 9,
+      "imagenUrl": "../img/repuestos.svg"
+    },
+    {
+      "nombre": "tecnomecanica",
+      "id": 10,
+      "imagenUrl": "../img/tecnomecanica.svg"
+    }
+  ]
+  

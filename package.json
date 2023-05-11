@@ -1,0 +1,39 @@
+{
+  "name": "carga-productos",
+  "version": "1.0.0",
+  "description": "Carga de productos para MotoSmart",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-route": "^1.8.3"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0"
+  },
+  "scripts": {
+    "postinstall": "npm run copy-libs",
+    "update-deps": "npm update",
+    "postupdate-deps": "npm run copy-libs",
+    "copy-libs": "cpx \"node_modules/{angular,angular-*,bootstrap/dist,jquery/dist}/**/*\" app/lib -C",
+    "prestart": "npm install",
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "npm test -- --single-run",
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update",
+    "preprotractor": "npm run update-webdriver",
+    "protractor": "protractor e2e-tests/protractor.conf.js",
+    "build": "npm run copy-libs && cpx \"app/**/*\" dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuYomayel/carga-productos.git"
+  },
+  "author": "Luciano Yomayel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuYomayel/carga-productos/issues"
+  },
+  "homepage": "https://github.com/LuYomayel/carga-productos#readme"
+}

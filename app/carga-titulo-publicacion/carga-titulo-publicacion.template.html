@@ -1,0 +1,16 @@
+<div class="nav-carga-titulo">
+    <a style="display: flex; align-items: center;" href="#!/" onclick="window.history.back();">
+        <i class="material-icons" style="font-size: 3rem; color:black">keyboard_arrow_left</i>
+    </a>
+    <p class="navbar-title">Cual es el título de tu aplicación</p>
+    <button class="continue-button" ng-click="$ctrl.guardarTitulo()">Continuar</button>  
+</div>
+
+<div class="input-container">
+    <input type="text" placeholder="Ej: Llanta kenda 90/90 R19" maxlength="60" ng-model="$ctrl.titulo" ng-change="$ctrl.updateCounter()">
+    <div style="display: flex; justify-content: space-between;">
+        <p class="input-hint">Puede incluir 60 caracteres en el título</p>
+        <p class="input-hint">{{$ctrl.counter}}/60</p>
+    </div>
+</div>
+

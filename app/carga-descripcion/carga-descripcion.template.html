@@ -1,0 +1,16 @@
+<div class="nav-carga-titulo">
+    <a style="display: flex; align-items: center;" href="#!/" onclick="window.history.back();">
+        <i class="material-icons" style="font-size: 3rem; color:black">keyboard_arrow_left</i>
+    </a>
+    <p class="navbar-title">Describe tu publicación</p>
+    <button class="continue-button" ng-click="$ctrl.guardarTitulo()">Continuar</button>  
+</div>
+
+<div class="input-container">
+    <input type="text" placeholder="Ej: Las llantas kenda son de máxima duración." maxlength="2000" ng-model="$ctrl.descripcion" ng-change="$ctrl.updateCounter()">
+    <div style="display: flex; justify-content: space-between;">
+        <p class="input-hint">Puede incluir 2000 caracteres en la descripcion</p>
+        <p class="input-hint">{{$ctrl.counter}}/2000</p>
+    </div>
+</div>
+
